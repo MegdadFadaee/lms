@@ -1,0 +1,1 @@
+const n=(t,e=0,i=",")=>{t=c(t);let r=parseFloat(t).toFixed(e).toString();return i&&(r=r.replace(/\B(?=(\d{3})+(?!\d))/g,i)),r},c=t=>t/10,o=t=>{if(t.split(":")[0]=="3")return t.replace("3:","")};var s={nicePrice:n,getActionUrl:o};export{s as U};
